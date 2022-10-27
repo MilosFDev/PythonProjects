@@ -13,7 +13,7 @@ elif x == "scissors":
     x = 3
 
 y = random.randint(1,3)     #We added random.randint which generated random integer and that value is stored in our variable
-time.sleep(3)
+time.sleep(3)               #We delayed y output to make user read his input first
 if y == 1:                                
     print(f'Enemy has chosen paper')      #Just normal output
 elif y == 2:
