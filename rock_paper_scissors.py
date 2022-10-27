@@ -1,4 +1,5 @@
 #Code is designed to be rant only once, I didn't add many functions due to making code as simple as possible 
+import time   #We need it for sleep command to make code exec little delayed
 import random #imports library which we will need to gen random number
 x = str(input("rock, paper, scissors: ")) # This is for the input which in this case is string
 if x == "paper" :
@@ -11,7 +12,8 @@ elif x == "scissors":
     print(f'you have chosen {x}')
     x = 3
 
-y = random.randint(1,3)                   #We added random.randint which generated random integer and that value is stored in our variable
+y = random.randint(1,3)     #We added random.randint which generated random integer and that value is stored in our variable
+time.sleep(3)
 if y == 1:                                
     print(f'Enemy has chosen paper')      #Just normal output
 elif y == 2:
