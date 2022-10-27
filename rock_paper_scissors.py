@@ -11,7 +11,7 @@ elif x == "scissors":
     print(f'you have chosen {x}')
     x = 3
 
-y = random.randint(1,3)                   #We added random.randint which generated random number and that value is stored in our variable
+y = random.randint(1,3)                   #We added random.randint which generated random integer and that value is stored in our variable
 if y == 1:                                
     print(f'Enemy has chosen paper')      #Just normal output
 elif y == 2:
