@@ -1,27 +1,27 @@
 import math
 
-def plus(x, y):  #definisana funkcija sabiranje
+def sum(x, y):  #definisana funkcija sabiranje
     return x + y
 
-def minus(x, y): #definisana funckija oduzimnanje
+def sub(x, y): #definisana funckija oduzimnanje
     return x - y
 
-def puta(x, y):  #definisana funckija mnozenje
+def multi(x, y):  
     return x * y
 
-def dijelenje(x, y): ##definisana funckija dijelenje
+def div(x, y): 
     return x / y    
 
-def procenat(x, y):
+def percent(x, y):
     return 100 * (x / y)
 
      
-x=float(input("Izaberi: 1. (+,-,/,*,%) ; 2. korijen nekog broja ; 3. kvadrat nekog broja "))
+x=float(input("Choose: 1. (+,-,/,*,%) ; 2. square root ; 3.  "))
 if x == 1:
-    odabir = input("Izaberite operaciju: 1.plus, 2.minus, 3.dijeljenje, 4.puta , 5. procenat : ")  #biramo racunsku operaciju
-    if odabir in ('1', '2' , '3' , '4' , '5'):                                           #operacije oznacili sa brojevima radi lakseg koda
-        num1 = float(input("Unesi prvi broj: "))                                    #broj 1. stavljen float radi brojeva sa decimalama
-        num2 = float(input("Unesi drugi broj: "))                                   #broj 2. stavljen float radi brojeva sa decimalama
+    choice = input("Choose : 1. summary, 2. subtraction, 3. multiplication, 4. division: ")  #biramo racunsku operaciju
+    if choice in ('1', '2' , '3' , '4' , '5'):                                           #operacije oznacili sa brojevima radi lakseg koda
+        num1 = float(input("Enter first number: "))                                    #broj 1. stavljen float radi brojeva sa decimalama
+        num2 = float(input("Enter second number: "))                                   #broj 2. stavljen float radi brojeva sa decimalama
         
         if odabir == '1':                                                   
             print(plus(num1, num2))
