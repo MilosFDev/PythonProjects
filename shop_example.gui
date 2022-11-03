@@ -1,4 +1,4 @@
-#This code is maden for shopping, it should be really simple
+#This code is dedicated to shopping, it should be really simple
 #I included list here, It will be simple yet good
 ingredients = ['salt','sugar','butter','eggs','garlic','water','olive oil','milk','flour','onion']
 salt,sugar,butter,eggs,garlic,water,olive_oil,milk,flour,onion=1.0, 1.2, 1.5, 0.2, 2.2, 0.5, 2.3, 1.7, 1.5, 1.3
