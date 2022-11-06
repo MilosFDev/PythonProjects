@@ -1,4 +1,4 @@
-import math
+mport math
 
 def sum(x, y): 
     return x + y
@@ -18,7 +18,7 @@ def percent(x, y):
      
 x=float(input("Choose: 1. (+,-,/,*,%) ; 2. square root ; 3.  "))
 if x == 1:
-    choice = input("Choose : 1. summary, 2. subtraction, 3. multiplication, 4. division: ")  
+    choice = input("Choose : 1. summary, 2. subtraction, 3. multiplication, 4. division , 5. percent ")  
     if choice in ('1', '2' , '3' , '4' , '5'):                                          
         num1 = float(input("Enter first number: "))                                    
         num2 = float(input("Enter second number: "))                                   
@@ -36,7 +36,7 @@ if x == 1:
             print(div(x, y)(num1, num2))
             
         elif choice == '5':
-            print(procenat(num1, num2))
+            print(percent(x, y)(num1, num2))
             
 if x == 2:
     num1 = float(input("Choose which number you want to square root of: "))
