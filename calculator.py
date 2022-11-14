@@ -1,4 +1,5 @@
-mport math
+#2 numbers only, not repeatable - for now
+import math
 
 def sum(x, y): 
     return x + y
